@@ -1,9 +1,4 @@
-#| Name of program : DineroIV Simulation Cache
-#| Author: Deepak Joseph    
-#| Date Created : 12/7/21
-#| Date last updated : 12/10/21
-#| Function : run four dineroIV simulations with different cache sizes
-#| Method : Using a shell script four simulations are run. Level 1 cache is now unified and level 2 same as stage 2
+#!/bin/bash
 
 /projects/CSE490/project2/gemTest.csh 429.mcf param1-1 1kB 1kB 1kB 1 1 1 16 > param1-1.out
 /projects/CSE490/project2/gemTest.csh 429.mcf param1-2 2kB 1kB 1kB 1 1 1 16 > param1-2.out
