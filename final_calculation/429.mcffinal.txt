@@ -1,0 +1,150 @@
+./stat_files/429.mcf/param4-1_stats.txt
+L1 Dcache: 0.7958952468430611
+L1 Icache: 0.7896979645526984
+L2 cache: 0.1353814255348312 
+CPI: 19.1024488
+ 
+./stat_files/429.mcf/param3-4_stats.txt
+L1 Dcache: 0.8438603351085078
+L1 Icache: 0.7896979645526984
+L2 cache: 0.1567139434252405 
+CPI: 17.83523
+ 
+./stat_files/429.mcf/param5-5_stats.txt
+L1 Dcache: 0.6565805982717909
+L1 Icache: 0.9655163723563507
+L2 cache: 0.21976189080876884 
+CPI: 8.9880288
+ 
+./stat_files/429.mcf/param5-3_stats.txt
+L1 Dcache: 0.7836007123525034
+L1 Icache: 0.9440825728235809
+L2 cache: 0.2638601314003271 
+CPI: 7.8080542
+ 
+./stat_files/429.mcf/param1-1_stats.txt
+L1 Dcache: 0.7958952468430611
+L1 Icache: 0.7896979645526984
+L2 cache: 0.1850421860144333 
+CPI: 18.1894238
+ 
+./stat_files/429.mcf/param3-2_stats.txt
+L1 Dcache: 0.8462687146429317
+L1 Icache: 0.7896979645526984
+L2 cache: 0.15687157529875198 
+CPI: 17.7885468
+ 
+./stat_files/429.mcf/param2-1_stats.txt
+L1 Dcache: 0.7958952468430611
+L1 Icache: 0.7896979645526984
+L2 cache: 0.22369493136885893 
+CPI: 17.4787838
+ 
+./stat_files/429.mcf/param3-5_stats.txt
+L1 Dcache: 0.8441032324086251
+L1 Icache: 0.7896979645526984
+L2 cache: 0.15344681788719558 
+CPI: 17.887883
+ 
+./stat_files/429.mcf/param5-4_stats.txt
+L1 Dcache: 0.7447901514582498
+L1 Icache: 0.9550887486076622
+L2 cache: 0.27470226567024447 
+CPI: 7.6995678
+ 
+./stat_files/429.mcf/param5-2_stats.txt
+L1 Dcache: 0.8119320543725798
+L1 Icache: 0.918874606577012
+L2 cache: 0.22436578212969216 
+CPI: 9.2014524
+ 
+./stat_files/429.mcf/param3-3_stats.txt
+L1 Dcache: 0.8473966029756503
+L1 Icache: 0.7896979645526984
+L2 cache: 0.1567621994491067 
+CPI: 17.7698786
+ 
+./stat_files/429.mcf/param2-2_stats.txt
+L1 Dcache: 0.7958952468430611
+L1 Icache: 0.7896979645526984
+L2 cache: 0.41075232088349134 
+CPI: 14.0396888
+ 
+./stat_files/429.mcf/param4-3_stats.txt
+L1 Dcache: 0.7958952468430611
+L1 Icache: 0.7896979645526984
+L2 cache: 0.1354594772763369 
+CPI: 19.1010138
+ 
+./stat_files/429.mcf/param1-5_stats.txt
+L1 Dcache: 0.9636432905297246
+L1 Icache: 0.7896979645526984
+L2 cache: 0.17101053232354183 
+CPI: 15.4326304
+ 
+./stat_files/429.mcf/param4-5_stats.txt
+L1 Dcache: 0.7958952468430611
+L1 Icache: 0.7896979645526984
+L2 cache: 0.13489353416109878 
+CPI: 19.1114188
+ 
+./stat_files/429.mcf/param2-4_stats.txt
+L1 Dcache: 0.7958952468430611
+L1 Icache: 0.7896979645526984
+L2 cache: 0.8186102003563728 
+CPI: 6.5411238
+ 
+./stat_files/429.mcf/param5-1_stats.txt
+L1 Dcache: 0.817319341749991
+L1 Icache: 0.8776518507183669
+L2 cache: 0.18085984920084852 
+CPI: 12.17882
+ 
+./stat_files/429.mcf/param1-3_stats.txt
+L1 Dcache: 0.9340426879821955
+L1 Icache: 0.7882687202418803
+L2 cache: 0.16493274472009783 
+CPI: 16.18439796143514
+ 
+./stat_files/429.mcf/param2-3_stats.txt
+L1 Dcache: 0.7958952468430611
+L1 Icache: 0.7896979645526984
+L2 cache: 0.6558538262214689 
+CPI: 9.5334388
+ 
+./stat_files/429.mcf/param4-2_stats.txt
+L1 Dcache: 0.7958952468430611
+L1 Icache: 0.7896979645526984
+L2 cache: 0.13408554906000683 
+CPI: 19.1262738
+ 
+./stat_files/429.mcf/param1-4_stats.txt
+L1 Dcache: 0.7958952468430611
+L1 Icache: 0.7896979645526984
+L2 cache: 0.13408554906000683 
+CPI: 19.1262738
+ 
+./stat_files/429.mcf/param4-4_stats.txt
+L1 Dcache: 0.7958952468430611
+L1 Icache: 0.7896979645526984
+L2 cache: 0.1369759111113045 
+CPI: 19.0731338
+ 
+./stat_files/429.mcf/param2-5_stats.txt
+L1 Dcache: 0.7958952468430611
+L1 Icache: 0.7896979645526984
+L2 cache: 0.8429748537413708 
+CPI: 6.0931738
+ 
+./stat_files/429.mcf/param3-1_stats.txt
+L1 Dcache: 0.8033844042508084
+L1 Icache: 0.7896979645526984
+L2 cache: 0.1855401484700503 
+CPI: 18.0477342
+ 
+./stat_files/429.mcf/param1-2_stats.txt
+L1 Dcache: 0.8033844042508084
+L1 Icache: 0.7896979645526984
+L2 cache: 0.1855401484700503 
+CPI: 18.0477342
+ 
