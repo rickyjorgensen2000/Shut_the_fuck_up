@@ -1,0 +1,40 @@
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Apr 17 2019 11:01:36
+gem5 started May  3 2023 17:23:54
+gem5 executing on metallica.cse.buffalo.edu, pid 38451
+command line: /util/gem5/build/X86/gem5.opt -d stat_files/429.mcf --stats-file=param2-2_stats.txt /util/gem5/configs/example/se.py -c /util/gem5/benchmark/429.mcf/src/benchmark -o /util/gem5/benchmark/429.mcf/data/inp.in -I 10000000 --l1d_size=1kB --l1i_size=1kB --l2_size=4kB --l1d_assoc=1 --l1i_assoc=1 --l2_assoc=1 --cacheline_size=16 --caches --l2cache
+
+Global frequency set at 1000000000000 ticks per second
+**** REAL SIMULATION ****
+
+MCF SPEC CPU2006 version 1.10
+Copyright (c) 1998-2000 Zuse Institut Berlin (ZIB)
+Copyright (c) 2000-2002 Andreas Loebel & ZIB
+Copyright (c) 2003-2005 Andreas Loebel
+
+Exiting @ tick 10986025000 because a thread reached the max instruction count
+-------------------------------------------------------
+
+### Test Parameters: ### 
+            Benchmark = 429.mcf
+          Output Name = param2-2
+   L1 Data Cache Size = 1kB
+ L1 Instrn Cache Size = 1kB
+        L2 Cache Size = 4kB
+  L1 Data Cache Assoc = 1
+L1 Instrn Cache Assoc = 1
+       L2 Cache Assoc = 1
+           Block Size = 16
+
+### Test Statistics: ###
+system.cpu.dcache.overall_miss_rate::total     0.204105                       # miss rate for overall accesses
+system.cpu.icache.overall_miss_rate::total     0.210302                       # miss rate for overall accesses
+system.l2.overall_miss_rate::total           0.589248                       # miss rate for overall accesses
+system.cpu.dcache.overall_misses::total        773069                       # number of overall misses
+system.cpu.icache.overall_misses::total       2903979                       # number of overall misses
+system.l2.overall_misses::total               2166692                       # number of overall misses
+sim_insts                                    10000000                       # Number of instructions simulated
+
+-------------------------------------------------------
