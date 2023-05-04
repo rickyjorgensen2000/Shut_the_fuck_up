@@ -1,8 +1,11 @@
 import os 
-#401.bzip2
+import csv
 
-directory = "./458.sjeng"
+directory = "./stat_files/429.mcf"
 
+with open('429.mcf.csv', 'w', newline='') as file:
+     writer = csv.writer(file)
+     writer.writerow(["Parameter", "L1 D Cache", "L1 I Cache","L2 cache","CPI"])
 for file in os.listdir(directory):
 
     f = os.path.join(directory,file)
@@ -50,12 +53,20 @@ for file in os.listdir(directory):
 
             CPI = 1 + (((i_cache_miss_num + d_cache_miss_num) * 6)  + (l2_misses * 50)) / total
 
-            with open(directory + "final.txt","a") as final_file:
-                final_file.write(str(f)+ "\n")
-                final_file.write(f"L1 Dcache: {L1_dhit_rate}\n")
-                final_file.write(f"L1 Icache: {L1_ihit_rate}\n")
-                final_file.write(f"L2 cache: {L2_hit_rate} \n")
-                final_file.write(f"CPI: {CPI}\n \n")
+            row = [f,L1_dhit_rate,L1_ihit_rate,L2_hit_rate,CPI]
+
+            with open('429.mcf.csv', 'a', newline='') as fileee:
+                writer = csv.writer(fileee)
+                writer.writerow(row)
+                
+
+
+            # with open(directory + "final.txt","a") as final_file:
+            #     final_file.write(str(f)+ "\n")
+            #     final_file.write(f"L1 Dcache: {L1_dhit_rate}\n")
+            #     final_file.write(f"L1 Icache: {L1_ihit_rate}\n")
+            #     final_file.write(f"L2 cache: {L2_hit_rate} \n")
+            #     final_file.write(f"CPI: {CPI}\n \n")
 
 
 
